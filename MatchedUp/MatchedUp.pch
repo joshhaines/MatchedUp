@@ -1,0 +1,22 @@
+//
+//  MatchedUp.pch
+//  MatchedUp
+//
+//  Created by Joshua Haines on 1/9/15.
+//  Copyright (c) 2015 Joshua Haines. All rights reserved.
+//
+
+#ifndef MatchedUp_MatchedUp_pch
+#define MatchedUp_MatchedUp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Parse/Parse.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import "Constants.h"
+#import <Mixpanel.h>
+
+#define MIXPANEL_TOKEN @"445c0ce23a98af20752df45ce0b5a37d"
+
+#endif
